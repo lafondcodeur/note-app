@@ -61,3 +61,20 @@ npm install
 
 # Lancer l'application
 npm run dev
+
+```
+
+
+###  Structure du Projet
+```bash
+src/
+├── components/
+│   ├── NoteForm.jsx          # Formulaire de création
+│   ├── NoteList.jsx          # Affichage des notes
+│   ├── Note.jsx              # Composant note individuelle
+│   └── forms/
+│       ├── InputField.jsx    # Champs réutilisables
+│       └── SelectField.jsx   # Sélecteurs
+├── App.jsx                   # Composant principal
+└── main.jsx                  # Point d'entrée
+
