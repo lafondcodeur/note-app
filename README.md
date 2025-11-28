@@ -28,19 +28,13 @@ Une application web moderne et intuitive de prise de notes développée avec Rea
 
 | Domaine | Technologies |
 |---------|--------------|
-| **Frontend** | React 18, Hooks (useState, useEffect) |
+| **Frontend** | React 18, Hooks (useState) |
 | **Styling** | Tailwind CSS, CSS-in-JS |
 | **Architecture** | Components modulaires, State lifting |
 | **Gestion d'état** | React State Management |
 | **Build Tool** | Vite |
 
 ## 🎨 Interface Utilisateur
-
-### Design Moderne
-- **Interface responsive** s'adaptant à tous les appareils
-- **Animations fluides** pour une expérience utilisateur optimale
-- **Code couleur intuitif** pour une identification rapide des priorités
-- **Typography hiérarchisée** pour une lecture agréable
 
 ### Composants Réutilisables
 - `<NoteForm />` - Formulaire de création de notes
