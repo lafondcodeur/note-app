@@ -4,7 +4,7 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-4.1.17-38B2AC?style=for-the-badge&logo=tailwind-css)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript)
 
-![Capture d'écran de l'application](image1.jpg)
+![Capture d'écran de l'application](noteApp.png)
 
 Une application web moderne et intuitive de prise de notes développée avec React, permettant une organisation efficace de vos idées, tâches et réflexions.
 
