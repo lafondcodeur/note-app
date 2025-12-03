@@ -25,7 +25,7 @@ const Note = ({ note, deleteNote }) => {
         onClick={() => deleteNote(note.id)}
         className="mt-3 text-red-500 hover:text-red-700 cursor-pointer transition"
       >
-        Supprimer
+        🚨Supprimer
       </button>
     </div>
   );

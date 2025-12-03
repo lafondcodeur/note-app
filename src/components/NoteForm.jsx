@@ -13,6 +13,7 @@ const NoteForm = ({ notes, setNotes }) => {
 
   const [isFormVisible, setIsFormVisible] = useState(false);
 
+  // Handle form Change
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -43,7 +44,7 @@ const NoteForm = ({ notes, setNotes }) => {
         onClick={() => setIsFormVisible(!isFormVisible)}
         className="w-full bg-gray border border-gray-300 text-purple-800 py-2 rounded-lg cursor-pointer hover:bg-purple-200 hover:border-purple-300 transition mb-4"
       >
-        {isFormVisible ? "Hide Form" : "Add new Form"}
+        {isFormVisible ? "Hide Form" : "Add new Form + "}
       </button>
       {/* Form */}
       {isFormVisible && (
@@ -61,7 +62,7 @@ const NoteForm = ({ notes, setNotes }) => {
             value={formData.priority}
             onChange={handleChange}
             options={[
-              { value: "high", label: "High" },
+              { value: "high", label: "🔴  High" },
               { value: "moyenne", label: "Moyenne" },
               { value: "low", label: "Low" },
             ]}
